@@ -1,0 +1,19 @@
+{
+  "name": "spacebot",
+  "version": "1.0.0",
+  "description": "bot for wohnzimmeradventures",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "slackbot",
+    "wohnzimmeradventures"
+  ],
+  "author": "Raphaël Haupt",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "slackbots": "^1.2.0"
+  }
+}
