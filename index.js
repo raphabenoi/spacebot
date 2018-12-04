@@ -7,17 +7,17 @@ const bot = new SlackBot({
 });
 
 // Start Handler
-bot.on("start", () => {
-  const params = {
-    icon_emoji: ":space_invader:"
-  };
-
-  bot.postMessageToChannel(
-    "_essential",
-    "Spacebot ready to serve! Give me orders",
-    params
-  );
-});
+// bot.on("start", () => {
+//   const params = {
+//     icon_emoji: ":space_invader:"
+//   };
+//
+//   bot.postMessageToUser(
+//     "_essential",
+//     "Spacebot ready to serve! Give me orders",
+//     params
+//   );
+// });
 
 // Error Handler
 bot.on("error", (err) => console.log(err));
