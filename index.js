@@ -13,7 +13,7 @@ bot.on("start", () => {
   };
 
   bot.postMessageToUser(
-    "UE90RRYGP",
+    "raphael.haupt",
     "Spacebot ready to serve! Give me orders",
     params
   );
