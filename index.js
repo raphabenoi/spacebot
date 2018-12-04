@@ -28,6 +28,8 @@ bot.on("message", (data) => {
     return;
   }
 
+  console.log(data)
+
   handleMessage(data);
 });
 
