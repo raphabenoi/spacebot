@@ -35,7 +35,7 @@ bot.on("message", (data) => {
 
 // Respond to data
 function handleMessage(message) {
-  // if(message.text.includes(" mission")) {
+  if(message.text.includes(" mission") || message.text.includes(" Mission")) {
     const params = {
       icon_emoji: ":space_invader:"
     };
@@ -49,5 +49,5 @@ function handleMessage(message) {
       mission, // text
       params // icon
     );
-  // }
+  }
 }
